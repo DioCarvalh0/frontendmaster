@@ -1,0 +1,76 @@
+body{
+    background: #FEFAE0;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    color: #606C38;
+}
+
+.autoras h2{
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial;
+    color: #606C38;
+    margin-bottom: 40px;
+}
+
+.indice1 h3{
+    text-align: center;
+}
+
+.indice1 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    color: #FEFAE0;
+}
+
+.indice1 h3{
+    font-size: 25px; 
+    font-family: Arial;
+    color: #FEFAE0;
+}
+
+.indice1{
+    padding: 10px;
+}
+
+.indice1 h3::after{
+    display: block;
+    content: '';
+    padding-bottom: 1%;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.card1, .card2{
+    padding: 20px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    align-content: space-between;
+}
+
+.indice1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 15px;
+
+    background: #283618;
+    background-size: 400% 400%;
+    animation: indice1 10s ease infinite; 
+}

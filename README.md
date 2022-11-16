@@ -1,0 +1,1 @@
+Projeto realizado em ReactJS para o projeto REGER da UNISAGRADO - Linguagem de Programação II

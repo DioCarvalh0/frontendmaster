@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+    color: #FEFAE0;
+}
+
+.header{
+    background: #283618;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+.menu li a:after{
+    display: block;
+    content: '';
+    border-bottom: solid 1px #BC6C25;
+    padding-bottom: 1%;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+}
+
+.menu li a:hover:after{
+    transform: scaleX(1);
+}
