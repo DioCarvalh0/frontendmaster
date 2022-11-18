@@ -1,37 +1,42 @@
 import './quatroRs.css'
 
-function QuatroRs(){
+  function QuatroRs(){
     return(
         <>
         <br /><br />
-        <div className='tituloResi'>
-            <h2>Como são destinados os resíduos sólidos</h2>
+        <div className='tituloQuatro'>
+            <h2>O que são os 4Rs?</h2>
         </div>
-        <section className='indiceResi'>
-        <h2 className='subtituloResi'>No Brasil, são três os destinos principais:</h2>
-        <div className ='conteudoResi'>
-          <h3><span>1</span> - ATERRO SANITÁRIO</h3>
-          <p>O solo é impermeabilizado,
-            são colocadas camadas de terra sobre as
-            camadas de resíduos compactados, o chorume é
-            coletado e são instaladas chaminés para
-            eliminação dos gases produzidos.</p>
-            <h3><span>2</span> - ATERRO CONTROLADO</h3>
-          <p>Não há impermeabilização
-            do solo ou colocação de
-            chaminés e tratamento do
-            chorume, apenas
-            colocação de camadas de
-            terra e compactação dos
-            resíduos.</p>
-            <h3><span>3</span> - LIXÃO</h3>
-          <p>Presente em 50%
-            dos municípios do Brasil,
-            os resíduos são
-            depositados a céu
-            aberto, não há
-            tratamento do chorume.</p>
-
+        <section className='indiceQuatro'>
+        <h2 className='subtituloQuatro'>São os 4: </h2>
+        <div className ='conteudoQuatro'>
+          <h3><span>1</span> - REDUZIR</h3>
+          <p>Consumir menos
+            produtos e preferir aqueles
+            que ofereçam menor
+            potencial de geração de
+            resíduos e tenham maior
+            durabilidade.</p>
+            <h3><span>2</span> - REUTILIZAR</h3>
+          <p>Usar novamente as embalagens.</p>
+            <h3><span>3</span> - RECICLAR</h3>
+          <p>Envolve a
+            transformação dos
+            materiais para a
+            produção de
+            matéria-prima para
+            outros produtos por meio
+            de processos industriais
+            ou artesanais. É fabricar
+            um produto a partir de
+            um material usado.</p>
+            <h3><span>4</span> - REPENSAR, REFLETIR</h3>
+          <p>Sobre os seus atos de
+            consumo e os impactos
+            que eles provocam sobre
+            você mesmo, a economia,
+            as relações sociais e a
+            natureza.</p>
         </div>
         </section>
         </>
