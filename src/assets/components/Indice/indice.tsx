@@ -5,7 +5,7 @@ import dulce from '../img/dulce-removebg-preview.png'
 function Indice(){
     return(
         <body>
-            <h1>PROJETO REGER</h1>
+            <h1 className='titulo'>PROJETO REGER</h1>
             <section className='indice1'>
                 <div>
                     <h3 className='border'>
