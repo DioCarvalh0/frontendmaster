@@ -7,10 +7,12 @@ function Header(){
             <a href="/">REGER</a>
             <nav>
                 <ul className="menu">
-                    <li><a href="/">Sobre</a></li>
-                    <li><a href="/">Quem Somos</a></li>
-                    <li><a href="/">Onde Estamos</a></li>
-                    <li><a href="/">Dicas</a></li>
+                    <li><a href="#projeto">O Projeto</a></li>
+                    <li><a href="#oquefazemos">O Que Fazemos</a></li>
+                    <li><a href="#comofazemos">Como Fazemos</a></li>
+                    <li><a href="#crescemos">Crescemos</a></li>
+                    <li><a href="#ondeestamos">Onde Estamos</a></li>
+                    <li><a href="#dicas">Dicas</a></li>
                 </ul>
             </nav>
         </header>

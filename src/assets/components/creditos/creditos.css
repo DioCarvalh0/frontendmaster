@@ -1,56 +1,50 @@
-
-.creditos{
-    text-align: center;
-    margin-top: 20px;
-}
-.creditos h3{
-    margin-bottom: 3px;
-}
-
-.credit{
-    margin-top: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 100px;
-}
-
-.dev h3{
-    margin-bottom: 15px;
-}
-
-.resp{
-    display: flex;
-    flex-direction: column;
-    order: 0;
-    flex-grow: 0;
-}
-
-.dev{
-    display: flex;
-    flex-direction: column;
-    order: 1;
-    flex-grow: 0;
-}
-
-.desi{
-    display: flex;
-    flex-direction: column;
-    order: 2;
-    flex-grow: 0;
-}
-
-.titulocred{
-    margin-top: 50px;
-    text-align: center;
-}
-
-hr{
-    margin-top: 50px;
-    border: none;
-    display: block;
-    border: 1px inset;
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
     overflow: hidden;
-    margin-right: auto;
-    margin-left: auto;
-}
+  }
+  
+  .creditos{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .equipes{
+    text-align: center;
+  }
+  
+  .equipes h4{
+    color: #fff;
+    border-bottom: 3px solid #606C38;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .equipes p{
+    color: #ccc;
+  }
+  
+  
+  
+  .Logo{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+  }
+  .Logo .titulo-final{
+    opacity: .3;
+    text-align: right;
+    font-size: .625rem;
+    color: #9e9797;
+  }
+  .Logo .card img{
+    max-width: 100%;
+    height: 70px;
+  
+  }

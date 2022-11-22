@@ -5,15 +5,18 @@ import dulce from '../img/dulce-removebg-preview.png'
 function Indice(){
     return(
         <body>
-            <h1>REGER</h1>
+            <h1>PROJETO REGER</h1>
             <section className='indice1'>
                 <div>
                     <h3 className='border'>
-                        O CONCEITO DE SUSTENTABILIDADE
+                        CONCEITO DE SUSTENTABILIDADE
                     </h3>
                     <p>
-                        Ações e atividades que visam atender as necessidades humanas atuais, 
-                        sem comprometer o futuro das próximas gerações”. Vivemos um momento crítico com 
+                        "Ações e atividades que visam atender as necessidades humanas atuais, 
+                        sem comprometer o futuro das próximas gerações”. 
+                    </p>
+                    <p>
+                        Vivemos um momento crítico com 
                         relação à geração excessiva de resíduos. Cabe a você desenvolver ações sustentáveis que visam à redução 
                         dos resíduos gerados. E também destinar de forma correta esses resíduos.
                     </p>

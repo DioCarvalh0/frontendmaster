@@ -1,39 +1,29 @@
 import './residuos.css'
+import Arvore from '../img/reciclearvore.png'
 
-function Residuos(){
+function Residuos(): JSX.Element{
     return(
         <>
-        <br /><br />
-        <div className='tituloResi'>
-            <h2>Como são destinados os resíduos sólidos</h2>
-        </div>
-        <section className='indiceResi'>
-        <h2 className='subtituloResi'>No Brasil, são três os destinos principais:</h2>
-        <div className ='conteudoResi'>
-          <h3><span>1</span> - ATERRO SANITÁRIO</h3>
-          <p>O solo é impermeabilizado,
-            são colocadas camadas de terra sobre as
-            camadas de resíduos compactados, o chorume é
-            coletado e são instaladas chaminés para
-            eliminação dos gases produzidos.</p>
-            <h3><span>2</span> - ATERRO CONTROLADO</h3>
-          <p>Não há impermeabilização
-            do solo ou colocação de
-            chaminés e tratamento do
-            chorume, apenas
-            colocação de camadas de
-            terra e compactação dos
-            resíduos.</p>
-            <h3><span>3</span> - LIXÃO</h3>
-          <p>Presente em 50%
-            dos municípios do Brasil,
-            os resíduos são
-            depositados a céu
-            aberto, não há
-            tratamento do chorume.</p>
+        <div className='main'>
+      <section id='projeto'></section>    
+      <section className='quem_somos'>
+            <h2 className='titulo'>Sobre o projeto: </h2>
+            <div className='sobre_projeto'>
 
-        </div>
+                <img src={Arvore} alt=''/>
+
+                <div className='conteudo_textos'>
+                    <h3><span>1</span>O que fazemos: </h3>
+                    <p>Buscamos incentivar a redução de resíduos e o seu descarte correto dentro da usc</p>
+                    <h3><span>2</span>Los mejores productos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                        velit doloribus laboriosam ut.</p>
+                </div>
+            </div>
         </section>
+        </div>
+        <br /><br />
         </>
     )
 }

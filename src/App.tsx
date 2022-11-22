@@ -5,7 +5,6 @@ import Header from './assets/components/Header/header'
 import Indice from './assets/components/Indice/indice'
 import Creditos from './assets/components/creditos/creditos'
 import Residuos from './assets/components/residuos/residuos'
-import QuatroRs from './assets/components/quatroRs/quatroRs'
 
 function App() {
 
@@ -16,9 +15,8 @@ function App() {
     <main>
     <Indice/>
     <Residuos/>
-    <QuatroRs/>
-    <Creditos/>
     </main>
+    <Creditos/>
     </>
     
   )
