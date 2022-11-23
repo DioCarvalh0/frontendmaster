@@ -21,15 +21,15 @@ function Creditos(){
                 <h4>Turma de Design</h4>
                 <p>Gustavo Silva Costa</p>
                 <p>Rafael Cassado Andreassa</p>
-                <p>Ananda</p>
+                <p>Ananda Pansanato Porto</p>
             </div>
         </div>
         <li className="Logo">
         <div className="card">
           <img src={Logo}/>
+          <h2 className="titulo-final">&copy; PROJETO EXTENSIONISTA - LPII
+          <h2 className='titulo-final'>UNISAGRADO</h2></h2>
         </div>
-        <h2 className="titulo-final">&copy; PROJETO EXTENSIONISTA - LPII</h2>
-        <h2 className='titulo-final'>UNISAGRADO</h2>
         </li>
 
     </footer>
