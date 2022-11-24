@@ -1,3 +1,11 @@
+
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+  
+
 footer{
     background: #414141;
     padding: 60px 0 30px 0;
@@ -37,12 +45,36 @@ footer{
     flex-direction: column;
     margin: .5rem;
     padding: 1rem;
+    justify-content: space-between;
   }
+
   .Logo .titulo-final{
+    background-color: #414141;
     opacity: .8;
     text-align: right;
     font-size: .625rem;
     color: #9e9797;
+    transform: translate(-50%, -50);
+    background: linear-gradient(-45deg, #7c7375, #695e62, #4e4247);
+    text-transform: uppercase;
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 6s ease-in-out infinite;
+    -moz-animation: animated_text 6s ease-in-out infinite;
+    -webkit-animation: animated_text 6s ease-in-out infinite;
+
+  }
+
+  @keyframes animated_text {
+    0%{
+      background-position: 0px 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0px 50%;
+    }
   }
   .Logo .card img{
     max-width: 100%;
@@ -54,3 +86,4 @@ footer{
     display: flex;
     justify-content: space-between;
   }
+

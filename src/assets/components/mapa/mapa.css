@@ -1,7 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+  }
+    
+
 .mapa iframe{
     border: 0;
     width: 100%;
 }
+
 .tituloMapa{
     color: #FEFAE0;
     font-size: 30px;

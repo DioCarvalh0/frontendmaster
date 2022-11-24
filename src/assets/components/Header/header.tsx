@@ -1,21 +1,24 @@
 import './header.css'
-
+import LogoReger from '../img/logoreger2.png'
 
 function Header(){
-    return( 
+    return(         
         <header className="header">
-            <a href="/">REGER</a>
+        
+            <a href="https://unisagrado.edu.br/projetos/reger-reducao-na-geracao-de-residuos"><img src={LogoReger}/></a>
             <nav>
                 <ul className="menu">
                     <li><a href="#projeto">O Projeto</a></li>
                     <li><a href="#oquefazemos">O Que Fazemos</a></li>
                     <li><a href="#comofazemos">Como Fazemos</a></li>
-                    <li><a href="#crescemos">Crescemos</a></li>
-                    <li><a href="#mapa">Onde Estamos</a></li>
+                    <li><a href="#alcance">Alcance</a></li>
+                    <li><a href="#mapa">Onde Atuamos</a></li>
                     <li><a href="#dicas">Dicas</a></li>
                 </ul>
             </nav>
+           
         </header>
+        
     )
 }
 

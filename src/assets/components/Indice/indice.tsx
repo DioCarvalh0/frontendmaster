@@ -5,7 +5,8 @@ import dulce from '../img/dulce-removebg-preview.png'
 function Indice(){
     return(
         <body>
-            <h1 className='titulo'>PROJETO REGER</h1>
+            <div className='center'>
+           
             <section className='indice1'>
                 <div>
                     <h3 className='border'>
@@ -23,7 +24,7 @@ function Indice(){
                 </div>                
             </section>
             <section className='autoras'>
-                <h2>O que dizem as autoras</h2>
+                <h2>Mensagem das Autoras</h2>
                 <div className='cards'>
                     <img src={beatriz}/>
                     <div className='card1'>
@@ -56,6 +57,7 @@ function Indice(){
                     </div>
                 </div>
             </section>
+            </div>
         </body> 
     )
 }
