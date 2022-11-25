@@ -66,6 +66,7 @@ function Residuos(): JSX.Element{
           </div>
           </div>
           <br /><br />
+          <a id='linktop' href="#">&#9650;</a>
         </>
     )
 }
