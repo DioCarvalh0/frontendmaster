@@ -88,3 +88,6 @@ main .quem_somos{
     display: flex;
     flex-wrap: wrap;
   }
+.line{
+  border: none;
+}

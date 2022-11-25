@@ -11,16 +11,15 @@ function App() {
 
 
   return (
-    <>
-    <Header/>
-    <main>
-    <Indice/>
-    <Residuos/>
-    <Mapa/>
-    </main>
-    <Creditos/>
-    </>
-    
+    <><>
+      <Header />
+      <main>
+        <Indice />
+        <Residuos />
+        <Mapa />
+      </main>
+      <Creditos />
+    </></>
   )
 }
 
